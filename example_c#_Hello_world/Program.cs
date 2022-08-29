@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World! Andrew");
+﻿// First probe program
+Console.WriteLine("Enter your name> ");
+string name = Console.ReadLine();
+Console.Write("Hello, ");
+Console.WriteLine(name);
